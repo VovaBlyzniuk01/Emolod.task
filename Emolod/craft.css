@@ -1,0 +1,13 @@
+*{
+    font-family: "Moderustic", sans-serif;
+}
+
+
+.block a{
+    text-decoration: none ;
+    font-size: 35px;
+    color: black;
+}
+.center p{
+    text-align: center;
+}

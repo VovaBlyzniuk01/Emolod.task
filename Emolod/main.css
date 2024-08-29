@@ -1,0 +1,91 @@
+*{
+    font-family: "Moderustic", sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+.cat{
+    width: 500px;
+    font-size: 35px;
+    border: black 1px solid;
+    box-shadow: 5px 3px 5px black ;
+    padding: 5px;
+    margin: 15px;
+    background-color:#bbbfc5;
+}
+#catspan{
+    font-weight: bold;
+}
+.ip{
+    width: 500px;
+    font-size: 35px;
+    border: black 1px solid ;
+    padding: 5px;
+   justify-content: flex-start;
+    box-shadow: black 5px 3px 5px;
+    margin: 15px;
+    background-color: #bbbfc5;
+}
+#ipspan{
+    font-weight: bold;
+}
+
+.div{
+    display: flex;
+    justify-content:center;
+   
+}
+.game{
+    font-size: 35px;
+    border: black 1px solid ;
+    width: 600px;
+    margin: 20px;
+    padding: 5px;
+    position: absolute;
+    left: 600px;
+    display:block;
+    background-color: #85998a;
+
+}
+.game li {
+    border: black 1px solid ;
+    list-style:none ;
+    text-align: center;
+    background-color: white;
+}
+.stalker:hover{
+    transition: 0.4s;
+    background-color: yellow;
+}
+
+.wot:hover{
+    color: white;
+    transition: 0.4s;
+    background-color: black;
+}
+.minecraft:hover{
+    transition: 0.4s;
+    background-color: green;
+}
+.CC3:hover{
+    transition: 0.4s;
+    background-color: rgb(22, 22, 221);
+}
+.GTA:hover{
+    transition: 0.4s;
+    background-color: lime;
+}
+ /*  при наведенні курсору на гру я реалізував колір, який я асоціюю з грою */
+.game p{
+    justify-content: center;
+    display: flex;
+}
+.my_favorite_game{
+    position: relative;
+   right: 20px
+}
+.page a{
+    text-decoration: none ;
+    font-size: 35px;
+    color: black;
+}
